@@ -2,7 +2,7 @@ package com.test.traducteur.api.services;
 
 import org.springframework.stereotype.Service;
 
-import Utils.TraducteurUtil;
+import com.test.traducteur.api.utils.TraducteurUtil;
 
 @Service
 public class TraducteurService {

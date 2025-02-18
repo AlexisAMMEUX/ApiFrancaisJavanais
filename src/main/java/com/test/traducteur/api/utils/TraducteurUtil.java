@@ -1,4 +1,4 @@
-package Utils;
+package com.test.traducteur.api.utils;
 
 public class TraducteurUtil {
 	
