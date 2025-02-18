@@ -1,6 +1,5 @@
 package com.test.traducteur.api.controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,12 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.test.traducteur.api.services.TraducteurService;
 
+import lombok.RequiredArgsConstructor;
+
 @RestController
 @RequestMapping("/traduire")
+@RequiredArgsConstructor
 public class TraducteurController {
 
-	@Autowired
-	private TraducteurService traducteurService;
+	private final TraducteurService traducteurService;
 
 	@PostMapping("/francais_vers_javanais")
 	public String traduireFrancaisVersJavanais(@RequestBody String texteATraduireDto) throws Exception {
