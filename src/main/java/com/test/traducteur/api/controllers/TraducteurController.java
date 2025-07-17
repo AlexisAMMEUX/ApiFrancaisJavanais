@@ -30,4 +30,6 @@ public class TraducteurController {
 		// Nouveau commit pour la branch test2
 	}
 	
+	
+	// Test new commit on branch test 1
 }
