@@ -26,6 +26,8 @@ public class TraducteurController {
 	public String traduireJavanaisVersFrancais(@RequestBody String texteATraduireDto) throws Exception {
 
 		return traducteurService.traduireJavanaisVersFrancais(texteATraduireDto);
+		
+		// Nouveau commit pour la branch test2
 	}
 	
 }
