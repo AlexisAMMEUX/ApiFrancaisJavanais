@@ -27,7 +27,7 @@ public class TraducteurController {
 
 		return traducteurService.traduireJavanaisVersFrancais(texteATraduireDto);
 		
-		// Nouveau commit pour la branch test2
+		// Nouveau commit pour la branch test2 => Modif pour tester la résolution de conflit
 	}
 	
 }
